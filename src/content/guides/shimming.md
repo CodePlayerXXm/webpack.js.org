@@ -146,7 +146,7 @@ webpack 5.4.0 compiled successfully in 2910 ms
    plugins: [
      new webpack.ProvidePlugin({
 -      _: 'lodash',
-+      join: ['lodash', 'join'],
++      _join: "lodash/join",
      }),
    ],
  };
